@@ -1,0 +1,21 @@
+{
+  "name": "hwprism1",
+  "version": "1.0.0",
+  "description": "hwprism1 - Forum API",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node --esm src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.0"
+  }
+}
